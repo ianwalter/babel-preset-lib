@@ -1,11 +1,11 @@
 {
-  "name": "@ianwalter/preset-lib",
+  "name": "@ianwalter/babel-preset-lib",
   "version": "1.0.0",
   "description": "Ian’s Babel preset for JavaScript libraries",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ianwalter/preset-lib.git"
+    "url": "git+https://github.com/ianwalter/babel-preset-lib.git"
   },
   "keywords": [
     "babel",
@@ -15,9 +15,9 @@
   "author": "Ian Walter <public@iankwalter.com> (https://iankwalter.com)",
   "license": "SEE LICENSE IN LICENSE",
   "bugs": {
-    "url": "https://github.com/ianwalter/preset-lib/issues"
+    "url": "https://github.com/ianwalter/babel-preset-lib/issues"
   },
-  "homepage": "https://github.com/ianwalter/preset-lib#readme",
+  "homepage": "https://github.com/ianwalter/babel-preset-lib#readme",
   "dependencies": {
     "@babel/plugin-transform-runtime": "^7.2.0",
     "@babel/preset-env": "^7.3.1"

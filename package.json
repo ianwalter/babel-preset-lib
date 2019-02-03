@@ -1,6 +1,6 @@
 {
   "name": "@ianwalter/babel-preset-lib",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Ian’s Babel preset for JavaScript libraries",
   "main": "index.js",
   "repository": {

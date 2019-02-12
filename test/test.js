@@ -1,5 +1,5 @@
 import test from 'ava'
-import { transformSync } from '@babel/core'
+import { transformSync, loadOptions } from '@babel/core'
 import preset from '..'
 
 test('basic config', t => {
@@ -13,4 +13,8 @@ test('basic config', t => {
     { presets: [preset] }
   )
   t.snapshot(code)
+})
+
+test('options are merged', t => {
+  t.snapshot(loadOptions({ presets: [[preset, { debug: true }]] }))
 })

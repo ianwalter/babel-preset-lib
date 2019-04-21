@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`basic config 1`] = `
+"\\"use strict\\";
+
+var _interopRequireDefault = require(\\"@babel/runtime/helpers/interopRequireDefault\\");
+
+Object.defineProperty(exports, \\"__esModule\\", {
+  value: true
+});
+exports.default = out;
+
+var _objectSpread2 = _interopRequireDefault(require(\\"@babel/runtime/helpers/objectSpread\\"));
+
+function out() {
+  for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+    args[_key] = arguments[_key];
+  }
+
+  return (0, _objectSpread2.default)({
+    count: args.length
+  }, args);
+}"
+`;

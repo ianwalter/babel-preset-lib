@@ -4,8 +4,8 @@
   "description": "Ian’s Babel preset for JavaScript libraries",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint index.js test",
-    "test": "ava"
+    "lint": "eslint index.js tests",
+    "test": "bff"
   },
   "repository": {
     "type": "git",
@@ -28,8 +28,8 @@
     "@babel/preset-env": "^7.3.1"
   },
   "devDependencies": {
+    "@ianwalter/bff": "^3.1.1",
     "@ianwalter/eslint-config": "^1.0.0",
-    "ava": "^1.2.1",
     "np": "^4.0.2"
   },
   "browserslist": [
@@ -38,7 +38,7 @@
   "eslintConfig": {
     "root": true,
     "extends": [
-      "@ianwalter/eslint-config"
+      "@ianwalter"
     ]
   }
 }

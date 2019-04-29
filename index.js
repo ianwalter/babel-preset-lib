@@ -2,10 +2,16 @@ module.exports = (babel, options = {}) => ({
   presets: [
     [
       require('@babel/preset-env'),
-      options
+      options.env
     ]
   ],
   plugins: [
-    require('@babel/plugin-transform-runtime')
+    [
+      require('@babel/plugin-transform-runtime'),
+      {
+        corejs: 3,
+        ...options.runtime
+      }
+    ]
   ]
 })

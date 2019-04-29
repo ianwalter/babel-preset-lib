@@ -9,7 +9,7 @@
   dependencies:
     "@babel/highlight" "^7.0.0"
 
-"@babel/core@^7.3.4":
+"@babel/core@^7.3.4", "@babel/core@^7.4.4":
   version "7.4.4"
   resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.4.4.tgz#84055750b05fcd50f9915a826b44fa347a825250"
   integrity sha512-lQgGX3FPRgbz2SKmhMtYgJvVzGZrmjaF4apZ2bLwofAKiSjxU0drPh4S/VasyYXwaTs+A1gvQ45BN8SQJzHsQQ==
@@ -521,7 +521,7 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.0.0"
 
-"@babel/plugin-transform-runtime@^7.2.0":
+"@babel/plugin-transform-runtime@^7.4.4":
   version "7.4.4"
   resolved "https://registry.yarnpkg.com/@babel/plugin-transform-runtime/-/plugin-transform-runtime-7.4.4.tgz#a50f5d16e9c3a4ac18a1a9f9803c107c380bce08"
   integrity sha512-aMVojEjPszvau3NRg+TIH14ynZLvPewH4xhlCW1w6A3rkxTS1m4uwzRclYR9oS+rl/dr+kT+pzbfHuAWP/lc7Q==
@@ -577,7 +577,7 @@
     "@babel/helper-regex" "^7.4.4"
     regexpu-core "^4.5.4"
 
-"@babel/preset-env@^7.3.1":
+"@babel/preset-env@^7.4.4":
   version "7.4.4"
   resolved "https://registry.yarnpkg.com/@babel/preset-env/-/preset-env-7.4.4.tgz#b6f6825bfb27b3e1394ca3de4f926482722c1d6f"
   integrity sha512-FU1H+ACWqZZqfw1x2G1tgtSSYSfxJLkpaUQL37CenULFARDo+h4xJoVHzRoHbK+85ViLciuI7ME4WTIhFRBBlw==
@@ -671,7 +671,7 @@
     lodash "^4.17.11"
     to-fast-properties "^2.0.0"
 
-"@ianwalter/bff@^4.0.0":
+"@ianwalter/bff@^4.0.1":
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/@ianwalter/bff/-/bff-4.0.1.tgz#e0e5011ad3420752d425b72165e07c42762aad21"
   integrity sha512-+ItJXAea9eBNSLXCzWaEKh82R0pDWwKrSWEFrAyRKUc00fKdTC7XBXY0qJYUiGZxwtyW5rl0RkPOH3XoBV8HCA==
@@ -697,7 +697,7 @@
     pkg-conf "^3.1.0"
     yargs "^13.2.2"
 
-"@ianwalter/eslint-config@^1.0.0":
+"@ianwalter/eslint-config@^1.1.2":
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@ianwalter/eslint-config/-/eslint-config-1.1.2.tgz#a88bbc4b09d715c53d59571690c1a3b56d56ebdb"
   integrity sha512-FNv2vkOWlXsjRP/5FwRXk04i4aI3ZzfrF4H5pU+rOju7Idfqaq9lYvjk6ZAdnApoU6nUtGM3IjZboAQaOshKpg==
@@ -3203,7 +3203,7 @@ normalize-url@^3.1.0:
   resolved "https://registry.yarnpkg.com/normalize-url/-/normalize-url-3.3.0.tgz#b2e1c4dc4f7c6d57743df733a4f5978d18650559"
   integrity sha512-U+JJi7duF1o+u2pynbp2zXDW2/PADgC30f0GsHZtRh+HOcXHnw137TrNlyxxRvWW5fjKd3bcLHPxofWuCjaeZg==
 
-np@^5.0.0:
+np@^5.0.1:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/np/-/np-5.0.1.tgz#54ac5347691d3dfc3ee0f0780d5a425ee2a692c1"
   integrity sha512-2TiY5X0hbQEevPV0WjJ4Os0hjt+Ja3P7cDtiAqBU3jSgyT33Uv6P0g8lIkwLzeTaA8KJe9ykpszjB8DOo27m5Q==

@@ -11,6 +11,8 @@ yarn add @ianwalter/babel-preset-lib --dev
 
 ## Usage
 
+In `package.json`:
+
 ```json
 {
   "babel": {
